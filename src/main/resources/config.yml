@@ -1,0 +1,17 @@
+# MailPlugin Configuration
+
+mail:
+
+  default-retention-days: 30
+  cleanup-interval-minutes: 60
+
+notifications:
+  notify-on-login: true
+  notify-on-receive: true
+  login-notification-message: "§eYou have %count% unread mail message(s). Type §f/mail §eto check your inbox."
+
+
+book-ui:
+  title: "Your Mailbox"
+  author: "Server"
+  items-per-page: 1

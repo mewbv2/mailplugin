@@ -1,4 +1,11 @@
-name: mailplugin
-version: '1.0-SNAPSHOT'
+name: MailPlugin
+version: ${project.version}
 main: io.mewb.mailplugin.Mailplugin
-api-version: '1.21'
+api-version: 1.17
+authors: [MewB]
+description: A mail system plugin
+commands:
+  mail:
+    description: Opens your mailbox or manages mail.
+    usage: /mail [open|send|senditem|claim]
+    aliases: [mailbox, m]
