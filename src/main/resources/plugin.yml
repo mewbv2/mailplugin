@@ -1,0 +1,4 @@
+name: mailplugin
+version: '1.0-SNAPSHOT'
+main: io.mewb.mailplugin.Mailplugin
+api-version: '1.21'
